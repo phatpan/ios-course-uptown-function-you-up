@@ -81,9 +81,9 @@ func declarWinner(playerAScore: Int, playerBScore: Int, playerCScore: Int){
 
 declarWinner(50, playerBScore:50, playerCScore:60)
 
-func cal(a: Double, b:Double) -> Double {
+func cal(a: Double, _ b:Double) -> Double {
     return a + b
 }
 
-cal(5 , b: 6)
+cal(5 , 6)
 
